@@ -1,0 +1,18 @@
+Start
+	Prompt user for coupon amount as a decimal 
+	If coupon amount <= 0 or coupon amount > 1
+		Set coupon amount to 0.10
+	EndIf
+	Prompt user for grocery bill for week 1
+	Prompt user for grocery bill for week 2
+	Prompt user for grocery bill for week 3
+	Prompt user for grocery bill for week 4
+	
+  Calculate total monthly bill as sum of week 1, week 2, week 3, and week 4
+	Calculate average weekly bill with coupon as monthly bill with coupon divided by 4
+
+	Display total monthly bill without coupon 
+	Display average weekly bill without coupon 
+	Display total monthly bill with coupon 
+	Display average weekly bill with coupon
+End 
